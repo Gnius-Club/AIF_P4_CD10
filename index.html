@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 10: Entrenadores de Robots Inteligentes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 10: Entrenadores de Robots Inteligentes</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">👁️</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+                <li><a href="#activity-6">6</a></li>
+                <li><a href="#activity-7">7</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Comprender cómo "aprende" realmente una máquina (ACD).</li>
+                                        <li>Explorar modelos de IA que aprenden de ejemplos.</li>
+                                        <li>Entender qué es un modelo de IA y cómo se entrena.</li>
+                                        <li>Identificar tipos de aprendizaje (supervisado).</li>
+                                        <li>Comprender cómo se entrenan modelos de IA, la importancia de datos diversos y cómo prevenir resultados injustos.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Activación Gnius Club</strong></li>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Objetivos de la Misión: "I Can Statement"</strong></li>
+                                        <li><strong class="tactic-highlight">Brain Boost</strong></li>
+                                        <li><strong class="tactic-highlight">Gamer Express</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge</strong></li>
+                                        <li><strong class="tactic-highlight">Clave Secreta de la Misión</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Diseño de dos sets de datos de entrenamiento (uno sesgado y uno justo) para un robot clasificador.</li>
+                                        <li>Discusión y argumentación sobre el impacto de la diversidad de datos en el aprendizaje de la IA.</li>
+                                        <li>Internalización y memorización de la "Regla de Oro del Entrenador".</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Cuaderno y colores.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Activación Gnius Club ⏰ 3 minutos</h2>
+                <p>Presentar la dinámica de activación para explorar el concepto de "aprendizaje".</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Activación Gnius Club ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 2. Activación: Tormenta de Ideas en Un Minuto.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Atención, Entrenadores! 🤖 ¡A sus centros de comando! Para activar nuestros cerebros de genios, vamos a una Tormenta de Ideas en Un Minuto. En equipos, anoten todas las palabras que se les ocurran sobre el tema: '¿Cómo aprendemos las personas?'. ¡Tienen 60 segundos... AHORA!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación Gnius Club ⏰ 2 minutos</h3>
+                            <p>Pide a los equipos que escriban sus ideas. Al final, un representante por equipo comparte la idea más poderosa o inesperada con el grupo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo! ¿Qué ideas surgieron? ¡'Viendo'! ¡'Escuchando'! ¡'Practicando'! ¡'Equivocándonos'! ¡Wow, aprendemos de muchísimas formas! ¡Esa idea de aprender con ejemplos es justo el corazón de nuestra misión de hoy!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Recuerdo Relámpago ⏰ 4 minutos</h2>
+                <p>Activar el conocimiento previo usando la pregunta clave de la misión anterior.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 3. Recuerdo Relámpago: El Código del Programador.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Programadores! Antes de entrenar a nuestros robots, recordemos nuestro código de la misión pasada: planifica();, ejecuta(); y depura();. Pero eso nos dejó una pregunta: Si ya sabemos programar nuestro tiempo, ¿cómo podemos usar la IA y la tecnología para ayudarnos a aprender y crear de formas que nunca antes habíamos imaginado?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Pide a los estudiantes que, en parejas, discutan la pregunta. Conecta sus respuestas con la misión de hoy.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Discutan con su compañero de equipo. ¿De qué formas nos ayuda la IA a aprender? (Pausa). ¡'Buscando información', 'traduciendo', 'dándonos ideas'! ¡Exacto! Pero para usar una herramienta tan poderosa, ¡primero debemos entender cómo piensa! Hoy vamos a abrir el capó de la IA.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Objetivos de la Misión: "I Can Statement" ⏰ 3 minutos</h2>
+                <p>Presentar la meta de la sesión con una metáfora de enseñanza y entrenamiento.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Proyecta Diapositiva 4. Objetivos de la Misión. (Imagen de un estudiante mostrándole a un robot amigable varias tarjetas con dibujos de diferentes animales para que el robot aprenda).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo! Nuestra misión de hoy es convertirnos en ENTRENADORES DE ROBOTS INTELIGENTES. Una Inteligencia Artificial es como un robot bebé: no nace sabiendo nada. ¡Aprende de lo que nosotros le enseñamos! Hoy seremos sus maestros y descubriremos que la calidad de nuestro alumno depende de la calidad de nuestra enseñanza.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Pide a los estudiantes que escriban o dibujen su "I Can Statement" y lo compartan.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Todo entrenador tiene una especialidad. La mía es: 'Yo puedo enseñarle a un robot a diferenciar un perro de un lobo usando 5 ejemplos claros'. Ahora ustedes, en su manual de entrenador, completen: 'Hoy el robot que entrene aprenderá a...'.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Boost ⏰ 5 minutos</h2>
+                <p>Despertar la curiosidad con una historia que ilustra cómo un entrenamiento sesgado lleva a un resultado erróneo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 5. Brain Boost: El Caso del Clasificador de Frutas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Imaginen que estamos entrenando a una IA para que trabaje en un supermercado. Su única tarea es poner las manzanas en una canasta y todo lo demás en otra. Para enseñarle, le mostramos 100 fotos de manzanas... pero todas son manzanas rojas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 6. El Primer Día de Trabajo. (Imagen de la IA poniendo correctamente una manzana roja, pero tirando a la basura una manzana verde y una amarilla).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">La IA aprende su lección: 'rojo y redondo = manzana'. Llega su primer día de trabajo. Ve una manzana roja y la clasifica perfecto. Pero luego ve una manzana verde y una amarilla. Como no son rojas, la IA piensa 'esto no es una manzana' y las tira a la canasta de 'otras frutas'. <br> ¿La IA se equivocó? ¿O el error fue nuestro como sus entrenadores?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Brain Boost ⏰ 1 minutos</h3>
+                            <p>Conecta la historia con el objetivo de la misión: aprender que la variedad en el entrenamiento es clave.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exacto! ¡El error fue nuestro! Le dimos una 'dieta' de datos muy pobre, ¡solo manzanas rojas! Para que la IA sea verdaderamente inteligente, necesita un 'buffet' de ejemplos con toda la variedad posible. ¡Hoy vamos a ser los chefs que preparan ese buffet de datos!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gamer Express ⏰ 10 minutos</h2>
+                <p>Practicar el entrenamiento de un modelo de IA en un entorno gamificado.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gamer Express ⏰ 10 minutos</h3>
+                            <p>Da la instrucción y los estudiantes ingresan a la plataforma para jugar el minijuego de la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Es hora de ir al gimnasio de entrenamiento! Ingresen a la plataforma y jueguen la misión Recuerden que a los robots hay que alimentarlo con muchos datos e imágenes para enseñarle a reconocer objetos. Su misión: lograr que el robot pase su 'examen de reconocimiento' con una calificación del 100%. ¡Elijan bien sus datos!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-6">
+                <h2>⚡ Actividad 6: Challenge ⏰ 10 minutos</h2>
+                <p>Introducir el reto creativo y de análisis, estableciendo el rol de "Diseñadores de Entrenamiento".</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 8. Challenge: El Entrenamiento del Robot Clasificador.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Han demostrado ser entrenadores de primera! Ahora, la prueba final. Van a diseñar un programa de entrenamiento completo para un nuevo robot. ¡Bienvenidos al Entrenamiento del Robot Clasificador! 🤖</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 9. La Misión del Robot. Presenta el escenario y la misión: diseñar un set de datos justo para una tarea específica.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Este es 'Clasi-Bot'. Su misión es aprender a identificar fotos de 'DEPORTES'. Nuestra tarea como sus entrenadores es darle el mejor set de datos (los mejores ejemplos) para que aprenda bien y no sea injusto. ¿Qué le enseñarían?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge ⏰ 5 minutos</h3>
+                            <p>Pide a los equipos que, en sus cuadernos, escriban o dibujen sus dos sets de datos de entrenamiento (uno sesgado y uno justo).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡A entrenar, equipos! En su cuaderno, diseñen dos programas de entrenamiento:<br>1. Entrenamiento Sesgado (Pobre): Hagan una lista de solo 3 deportes que sean muy parecidos. (Ej: fútbol, básquetbol, voleibol, ¡todos con pelotas!). ¿Qué deportes dejaría fuera el robot? <br>2. Entrenamiento Justo (Variado): Ahora, hagan una lista de 5 deportes que sean MUY diferentes entre sí para darle un entrenamiento completo. (Ej: natación, ajedrez, gimnasia, atletismo, automovilismo). <br>¡Comparen sus dos listas!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 10. Reporte de Entrenamiento. Refuerza el aprendizaje compartiendo los sets de datos y discutiendo el impacto de cada uno.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo! Equipo 'Los Entrenadores', ¡compartan su lista de entrenamiento sesgado! Si el robot solo aprende sobre pelotas, ¿qué pensaría de la natación? ¡Exacto, diría que no es un deporte! Ahora, ¡su lista de entrenamiento justo! ¿Por qué esa lista es mucho más poderosa e inteligente?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-7">
+                <h2>⚡ Actividad 7: Clave Secreta de la Misión ⏰ 5 minutos</h2>
+                <p>Consolidar la idea principal de la sesión con una pregunta poderosa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Clave Secreta de la Misión ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 11. Clave Secreta de la Misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Son oficialmente los mejores entrenadores de IA! Han descubierto el secreto para crear robots inteligentes y justos. Una última pregunta: ¿cuál es la regla de oro que un gran entrenador de IA nunca, nunca olvida?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 12. La Regla de Oro del Entrenador. Presenta la regla como un principio fundamental.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exacto! ¡La variedad! ¡Los ejemplos diferentes! Para que siempre lo tengan presente, esta es su nueva clave secreta, la Regla de Oro del Entrenador de IA: <br>✨ La inteligencia de tu robot depende de la variedad de tu lección. 🍎🍏🍋</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Repite la regla con gestos. Lanza la pregunta de conexión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Vamos a decir la regla de oro! ¡Todos juntos! 'La inteligencia de tu robot...' (señalan su cabeza). '...depende de la variedad de tu lección' (abren los brazos mostrando variedad). ¡Perfecto! Guarden esta regla, porque nos deja una pregunta: Si ya sabemos cómo entrenar a un robot, ¿qué pasa cuando el robot nos 'entrena' a nosotros con lo que nos muestra? 🤔 ¡Nos vemos en la próxima misión!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
